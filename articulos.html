@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;1,100;1,400&family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/e6baea6b33.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
     <link rel="stylesheet" href="./css/estilos.css">
     <title>Focus On Kids | Terapia Ocupacional | Artículos</title>
 </head>
@@ -38,8 +40,8 @@
        
         <!-- * contenido -->
         <main class="main grid__main">
-            <h1 class="main__titulo">Focus On Kids</h1>
-            <div class="main__hero"></div>
+            <h1 data-aos="fade-down" class="main__titulo">Focus On Kids</h1>
+        
        
             <section class="art">
                 <div class="art__box box">
@@ -264,6 +266,11 @@
         </footer>
         <!-- * fin footer -->
    </div>
+
+
+   <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
