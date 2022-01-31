@@ -45,6 +45,7 @@ body {
     grid-auto-flow: row;
     grid-template-areas:
         "grid__header grid__header grid__header grid__header grid__header grid__header grid__header grid__header grid__header"
+        /* "grid__carousel grid__carousel grid__carousel grid__carousel grid__carousel grid__carousel grid__carousel grid__carousel grid__carousel" */
         "grid__main grid__main grid__main grid__main grid__main grid__main grid__main grid__main grid__main"
         "grid__main grid__main grid__main grid__main grid__main grid__main grid__main grid__main grid__main"
         "grid__main grid__main grid__main grid__main grid__main grid__main grid__main grid__main grid__main"
@@ -54,6 +55,9 @@ body {
 .grid__header {
     grid-area: grid__header;
 }
+/* .grid__carousel {
+    grid-area: grid__carousel;
+} */
 
 .grid__main {
     grid-area: grid__main;
@@ -135,6 +139,14 @@ body {
 
 
 /* estilos index */
+/* .grid__carousel{
+    height: fit-content;
+} */
+/* .carousel-item img{
+    text-align: center;
+    justify-content:center;
+    border-radius: 10px;
+} */
 
 .main section {
     display: flex;
@@ -185,24 +197,17 @@ body {
     margin: 10px 0;
 }
 
-.main .staff {
+/* .main .staff {
     width: 75%;
-}
+} */
 
 .main .staff .staff__tarjeta {
     margin: 5px 0 20px 0;
-    display: flex;
-    align-items: center;
+    background-color: rgba(43, 168, 212, .2);
 }
 
 .main .staff .staff__tarjeta img {
     border-radius: 50%;
-    width: 15em;
-    margin: 25px 10px;
-}
-
-.main .staff .staff__tarjeta .staff__titulo {
-    font-size: 2em;
 }
 
 .main .staff .staff__tarjeta .staff__subt {
