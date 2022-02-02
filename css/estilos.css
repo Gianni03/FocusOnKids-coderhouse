@@ -201,21 +201,25 @@ body {
     width: 75%;
 } */
 
-.main .staff .staff__tarjeta {
+/* .main .staff  */
+.staff__tarjeta {
     margin: 5px 0 20px 0;
     background-color: rgba(43, 168, 212, .2);
 }
 
-.main .staff .staff__tarjeta img {
+/* .main .staff  */
+.staff__tarjeta img {
     border-radius: 50%;
 }
 
-.main .staff .staff__tarjeta .staff__subt {
+/* .main .staff .staff__tarjeta  */
+.staff__subt {
     border-bottom: #000 solid 2px;
     margin-bottom: 10px;
 }
 
-.main .staff .staff__tarjeta .staff__texto li {
+/* .main .staff .staff__tarjeta  */
+.staff__texto li {
     list-style: none;
 }
 
