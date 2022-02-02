@@ -23,13 +23,6 @@ color: #5eb38a;verde;
 } */
 
 /* todo Estilos generales  */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     background-color: rgba(43, 168, 212, .7);
     font-family: "Montserrat", sans-serif;
@@ -55,6 +48,7 @@ body {
 .grid__header {
     grid-area: grid__header;
 }
+
 /* .grid__carousel {
     grid-area: grid__carousel;
 } */
@@ -130,15 +124,11 @@ body {
     margin-top: 1em;
 }
 
-
-
 /* todo Fin estilos header y título -------------------------------------- */
 
 
-
-
-
 /* estilos index */
+
 /* .grid__carousel{
     height: fit-content;
 } */
@@ -197,34 +187,28 @@ body {
     margin: 10px 0;
 }
 
-/* .main .staff {
-    width: 75%;
-} */
-
-/* .main .staff  */
 .staff__tarjeta {
     margin: 5px 0 20px 0;
     background-color: rgba(43, 168, 212, .2);
 }
 
-/* .main .staff  */
 .staff__tarjeta img {
     border-radius: 50%;
 }
 
-/* .main .staff .staff__tarjeta  */
 .staff__subt {
     border-bottom: #000 solid 2px;
     margin-bottom: 10px;
 }
 
-/* .main .staff .staff__tarjeta  */
+
 .staff__texto li {
     list-style: none;
 }
 
 /* estilos articulos */
-.main .art .box .box__titulo {
+
+.box .box__titulo {
     font-family: "Nanum Gothic", sans-serif;
     font-size: 2.125em;
     font-weight: 700;
@@ -232,7 +216,7 @@ body {
     margin-top: 25px;
 }
 
-.main .art .box .box__subt {
+.box .box__subt {
     font-family: "Nanum Gothic", sans-serif;
     font-size: 1.125em;
     font-weight: 700;
@@ -240,7 +224,7 @@ body {
     margin-bottom: 15px;
 }
 
-.main .art .box .box__text {
+.box .box__text {
     margin-bottom: 5px;
     border: #000 solid 2px;
     border-radius: 10px;
@@ -290,36 +274,36 @@ body {
     width: 60%;
 }
 
-.main .formulario .formulario__contenedor {
+.formulario .formulario__contenedor {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.main .formulario .formulario__contenedor .formulario__titulo {
+.formulario .formulario__contenedor .formulario__titulo {
     font-size: 2.125em;
     text-align: center;
     padding: 0.5em;
 }
 
-.main .formulario .contenedor .contenedor__input,
-.main .formulario .contenedor__input .contenedor__input--chk {
+.contenedor .contenedor__input,
+.contenedor__input .contenedor__input--chk {
     font-size: 1.125em;
     margin: 10px auto;
 }
 
-.main .formulario .contenedor .consulta {
+.formulario .contenedor .consulta {
     margin: 10px 0 30px;
     font-size: 1.5em;
 }
 
-.main .formulario .contenedor .googleForm p {
+.formulario .contenedor .googleForm p {
     text-align: center;
     font-weight: 700;
     margin: 2em auto;
 }
 
-.main .formulario .contenedor .googleForm a {
+.formulario .contenedor .googleForm a {
     text-decoration: none;
     font-size: 1.5em;
     margin: 2em 2em;
@@ -328,13 +312,13 @@ body {
     border-radius: 5px;
 }
 
-.main .formulario .contenedor .googleForm a:hover {
+.formulario .contenedor .googleForm a:hover {
     color: #000000;
     background: #25d366;
     text-decoration: underline;
 }
 
-.main .formulario .contenedor .contenedor__input--verde {
+.formulario .contenedor .contenedor__input--verde {
     background-color: #25d366;
     color: #000;
     font-weight: 700;
@@ -344,7 +328,7 @@ body {
     cursor: pointer;
 }
 
-.main .formulario .contenedor .contenedor__input--verde:hover {
+.formulario .contenedor .contenedor__input--verde:hover {
     background-color: #62eb94;
 }
 
@@ -377,62 +361,62 @@ body {
     color: black;
 }
 
-.footer .footer__iconos ul .footer__iconos--facebook a i:hover {
+.footer__iconos ul .footer__iconos--facebook a i:hover {
     color: #1877f2;
     background-color: #000;
     border-radius: 50%;
-    
+
 }
 
-.footer .footer__iconos ul .footer__iconos--instagram a i:hover {
+.footer__iconos ul .footer__iconos--instagram a i:hover {
     color: #e1306c;
     background-color: #000;
     border-radius: 50%;
 }
 
-.footer .footer__iconos ul .footer__iconos--google a i:hover {
+.footer__iconos ul .footer__iconos--google a i:hover {
     color: #4285f4;
     background-color: #000;
     border-radius: 50%;
 }
 
-.footer .footer__iconos ul .footer__iconos--wapp a i:hover {
+.footer__iconos ul .footer__iconos--wapp a i:hover {
     color: #25d366;
     background-color: #000;
     border-radius: 50%;
 }
 
-.footer .footer__iconos ul .footer__iconos--mail a i:hover {
+.footer__iconos ul .footer__iconos--mail a i:hover {
     color: #ea4335;
     background-color: #000;
     border-radius: 50%;
 }
 
-.footer .footer__contacto {
+.footer__contacto {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 20px;
 }
 
-.footer .footer__contacto .footer__contacto--logo {
+.footer__contacto .footer__contacto--logo {
     height: 5em;
     border-radius: 5px;
 }
 
-.footer .footer__contacto .footer__contacto--mail {
+.footer__contacto .footer__contacto--mail {
     list-style: none;
     margin: 10px;
 }
 
-.footer .footer__contacto .footer__contacto--mail a {
+.footer__contacto .footer__contacto--mail a {
     text-decoration: none;
     font-family: "Nanum Gothic", sans-serif;
     color: #000000;
     font-size: 1.5em;
 }
 
-.footer .footer__contacto .footer__contacto--qr {
+.footer__contacto .footer__contacto--qr {
     border-radius: 10px;
     height: 10em;
 }
@@ -450,7 +434,7 @@ body {
     padding: 10px;
 }
 
-.footer .footer__dev a:hover {
+.footer__dev a:hover {
     color: #25d366;
     background-color: #000;
     border-radius: 15px;
@@ -461,44 +445,106 @@ body {
 
 /* todo MEDIAQUERYES */
 
-@media screen and (max-width: 920px){
-.header .header__logo-pc{
-display: none;
-}
-.header{
-    background-image: url(../img/logo/logo_004.jpg);
-    background-size: cover;
-    justify-content: center;
-    align-items: center;
+@media screen and (max-width: 920px) {
+    .header .header__logo-pc {
+        display: none;
+    }
+
+    .header {
+        background-image: url(../img/logo/logo_004.jpg);
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header .header__menu ul li {
+        margin: 1.75em 1.125em;
+    }
+
+    .main .imagenes :nth-child(3n) {
+        display: none;
+    }
+
+    .main .imagenes {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        gap: 10px 10px;
+    }
+
+    .main .videos .videos__card {
+        width: 70%;
+        text-align: center;
+    }
+
+    .main .formulario .contenedor .googleForm a {
+        font-size: 1em;
+    }
+
+
 }
 
-.header .header__menu ul li{
-    margin: 1.75em 1.125em;
-}
-
-.main .imagenes :nth-child(3n){
-    display: none;
-}
-
-.main .imagenes {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(3, 1fr);
-    gap: 10px 10px;
-}
-.main .videos .videos__card {
-    width: 70%;
-    text-align: center;
-}
-
-.main .formulario .contenedor .googleForm a{
-    font-size: 1em;
-}
-
-}
-@media screen and (max-width: 786px){
+@media screen and (max-width: 786px) {
     .main .videos .videos__card {
         width: 100%;
         text-align: center;
     }
+}
+
+@media screen and (max-width: 640px) {
+    .header {
+        background-image: url(../img/logo/logo_004.jpg);
+        background-size: contain;
+    }
+
+    .header .header__menu ul li a {
+        font-size: 0.5em;
+        line-height: 1em;
+    }
+
+    .main section {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        width: 100%;
+    }
+
+    .main section .pages {
+        width: 75%;
+    }
+
+    .footer__iconos ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__iconos ul li a i {
+        font-size: 2em;
+        /* margin: 5px; */
+        padding: 5px;
+        margin: -30px;
+    }
+
+    .footer__contacto {
+        flex-direction: column-reverse;
+    }
+
+    .footer__contacto--qr {
+        height: 5em;
+        justify-content: center;
+    }
+
+    .main .imagenes {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        gap: 10px 10px;
+    }
+
+    .googleForm a {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
