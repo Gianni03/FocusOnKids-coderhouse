@@ -1,0 +1,42 @@
+.main {
+    .imagenes {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        gap: 10px 10px;
+
+        div {
+            margin-bottom: 3em;
+            background-color: $cbgmedia;
+
+            figcaption {
+                padding: 20px;
+                text-align: center;
+            }
+        }
+
+        img {
+            width: 100%;
+            border-radius: 5px;
+            border: #000 solid 2px;
+            box-shadow: -7px -7px 10px #000;
+            margin: 20px auto;
+        }
+    }
+
+    .videos {
+        margin-bottom: 3em;
+        background-color: $cbgmedia;
+
+        .videos__card {
+            // width: 100%;
+            border-radius: 5px;
+            border: #000 solid 2px;
+            box-shadow: -7px -7px 10px #000;
+            margin: 20px auto;
+            width: 45%;
+            text-align: center;
+        }
+    }
+
+}

@@ -1,0 +1,31 @@
+.main {
+    .proyecto__titulo {
+        text-align: center;
+        font-size: 2em;
+        margin: 20px;
+    }
+
+    .proyecto__texto {
+        font-size: 1.25em;
+        line-height: 1.5;
+        font-family: "Nanum Gothic", sans-serif;
+        margin: 10px 0;
+    }
+
+    .staff__tarjeta {
+        margin: 5px 0 20px 0;
+        background-color: $cbgtargeta;
+
+        img {
+            border-radius: 50%;
+        }
+    }
+
+    .staff__subt {
+        border-bottom: #000 solid 2px;
+        margin-bottom: 10px;
+    }
+    .staff__texto li{
+        list-style: none;
+    }
+}

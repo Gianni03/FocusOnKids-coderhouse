@@ -1,0 +1,36 @@
+.main {
+    section {
+        display: flex;
+        width: 90%;
+        flex-wrap: wrap;
+        margin: 30px auto;
+
+        .pages {
+            width: 50%;
+
+            a {
+                width: 100%;
+                height: auto;
+            }
+
+            img {
+                width: 90%;
+                border: 2px solid transparent;
+                border-radius: 10px;
+
+                &:hover {
+                    border: 2px solid $cface;
+                }
+            }
+
+            .pages__parrafo {
+                font-family: "Nanum Gothic", sans-serif;
+                width: 90%;
+                font-size: 1.25em;
+                line-height: 1.5em;
+                margin-bottom: 3em;
+                text-align: justify;
+            }
+        }
+    }
+}

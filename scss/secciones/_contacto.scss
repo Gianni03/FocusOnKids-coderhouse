@@ -1,0 +1,78 @@
+.formulario {
+    background-color: $cbgmedia;
+    margin: 4em auto;
+    width: 60%;
+
+    .formulario__contenedor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .formulario__titulo {
+            font-size: 2.125em;
+            text-align: center;
+            padding: 0.5em;
+        }
+    }
+
+    .contenedor {
+        .contenedor__input {
+            .contenedor__input--chk {
+                font-size: 1.125em;
+                margin: 10px auto;
+            }
+
+            
+        }
+        .contenedor__input--verde {
+            background-color: $cwapp;
+            color: #000;
+            font-weight: 700;
+            font-size: 2em;
+            border-radius: 5px;
+            padding: 10px;
+            cursor: pointer;
+            &:hover {
+                background-color:  #62eb94;
+            }
+        }
+
+        .consulta {
+            margin: 10px 0 30px;
+            font-size: 1.5em;
+        }
+
+        .googleForm {
+            p {
+                margin: 10px 0 30px;
+                font-size: 1.5em;
+            }
+
+            a {
+                text-decoration: none;
+                font-size: 1.5em;
+                margin: 2em 2em;
+                color: $cface;
+                background: $cbgmedia;
+                border-radius: 5px;
+
+                &:hover {
+                    color: #000;
+                    background: $cwapp;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+.map {
+    .map__mobil {
+        display: none;
+    }
+
+    .map__pc {
+        margin: 50px auto;
+        width: 80%;
+    }
+}

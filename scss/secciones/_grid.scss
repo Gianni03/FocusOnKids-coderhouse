@@ -1,0 +1,30 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 10em 1fr 1fr 1fr 20em;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "grid__header grid__header grid__header grid__header grid__header grid__header grid__header grid__header grid__header"
+        /* "grid__carousel grid__carousel grid__carousel grid__carousel grid__carousel grid__carousel grid__carousel grid__carousel grid__carousel" */
+        "grid__main grid__main grid__main grid__main grid__main grid__main grid__main grid__main grid__main"
+        "grid__main grid__main grid__main grid__main grid__main grid__main grid__main grid__main grid__main"
+        "grid__main grid__main grid__main grid__main grid__main grid__main grid__main grid__main grid__main"
+        "grid__footer grid__footer grid__footer grid__footer grid__footer grid__footer grid__footer grid__footer grid__footer";
+}
+
+.grid__header {
+    grid-area: grid__header;
+}
+
+/* .grid__carousel {
+    grid-area: grid__carousel;
+} */
+
+.grid__main {
+    grid-area: grid__main;
+}
+
+.grid__footer {
+    grid-area: grid__footer;
+}

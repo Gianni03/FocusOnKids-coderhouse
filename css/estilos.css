@@ -307,7 +307,7 @@ body {
     text-decoration: none;
     font-size: 1.5em;
     margin: 2em 2em;
-    color: #1877f2;
+    color: hsl(214, 89%, 52%);
     background: rgb(177, 177, 177);
     border-radius: 5px;
 }
@@ -424,7 +424,7 @@ body {
 .footer .footer__dev {
     text-align: center;
     margin-top: 5px;
-    background-color: rgba(12, 115, 184);
+    background-color: #0c73b8;
 }
 
 .footer .footer__dev p,

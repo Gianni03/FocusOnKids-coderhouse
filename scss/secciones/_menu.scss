@@ -1,0 +1,42 @@
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: $cfooterbg;
+    .header__logo-mobil{
+        display: none;
+    }
+    .header__logo-pc{
+        img {
+            height: 8em;
+            margin: 1em;
+            border-radius: 5px;
+        }
+    }
+    .header__menu {
+        ul {
+            display: flex;
+            justify-content: space-between;
+            li {
+                list-style: none;
+                margin: 3em 2em;
+                background: linear-gradient(315deg, $cbtngrad1, $cbtngrad2);
+                &:hover{
+                    background: linear-gradient(315deg, $chovbtngrad1, $chovbtngrad2);
+                }
+                a {
+                    text-decoration: none;
+                    font-size: .8em;
+                    font-weight: 700;
+                    color: $cbtntexto;
+                    padding: 20px 15px;
+                    line-height: 3.25em;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+
+    }
+}

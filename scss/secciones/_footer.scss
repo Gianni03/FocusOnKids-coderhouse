@@ -1,0 +1,80 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: $cfooterbg;
+    .footer__iconos ul{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        li a i{
+            font-size: 3em;
+        margin: 20px;
+        padding: 20px;
+        color: black;
+        }
+        .footer__iconos--facebook a i:hover{
+            color: $cface;
+            background-color: #000;
+            border-radius: 50%;
+        }
+        .footer__iconos--instagram a i:hover{
+            color: $cinsta;
+            background-color: #000;
+            border-radius: 50%;
+        }
+        .footer__iconos--google a i:hover{
+            color: $cgoogle;
+            background-color: #000;
+            border-radius: 50%;
+        }
+        .footer__iconos--wapp a i:hover{
+            color: $cwapp;
+            background-color: #000;
+            border-radius: 50%;
+        }
+        .footer__iconos--mail a i:hover{
+            color: $cmail;
+            background-color: #000;
+            border-radius: 50%;
+        }
+    }
+    .footer__contacto{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 20px;
+        .footer__contacto--logo{
+            height: 5em;
+        border-radius: 5px;
+        }
+        .footer__contacto--mail{
+            list-style: none;
+            margin: 10px;
+            a {
+                text-decoration: none;
+                font-family: "Nanum Gothic", sans-serif;
+                color: #000000;
+                font-size: 1.5em;
+            }
+        }
+        .footer__contacto--qr{
+            border-radius: 10px;
+            height: 10em;
+        }
+    }
+    .footer__dev{
+        text-align: center;
+        margin-top: 5px;
+        background-color: $cbtntexto;
+        p,a{
+            font-size: 1em;
+            margin: 10px;
+            padding: 10px;
+            a:hover{
+                color: $cwapp;
+                background-color: #000;
+                border-radius: 15px;
+            }
+        }
+    }
+}
