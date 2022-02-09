@@ -36,73 +36,74 @@
         }
     }
 
-    @media screen and (max-width: 786px) {
-        .main .video__card {
-            width: 100%;
-            text-align: center;
-        }
+}
+
+@media screen and (max-width: 786px) {
+    .main .video__card {
+        width: 100%;
+        text-align: center;
     }
 }
 
-    @media screen and (max-width: 640px) {
-        .header {
-            background-size: contain;
+@media screen and (max-width: 640px) {
+    .header {
+        background-size: contain;
 
-            .header__menu {
-                a {
-                    font-size: 0.5em;
-                    line-height: 1em;
-                }
-            }
-        }
-
-        .main {
-            section {
-                display: flex;
-                flex-direction: column;
-                flex-wrap: nowrap;
-                align-items: center;
-                width: 100%;
-
-                .pages {
-                    width: 75%;
-                }
-            }
-
-            .imagenes {
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                grid-template-rows: repeat(5, 1fr);
-                gap: 10px 10px;
-            }
-
-        }
-
-        .footer {
-            .footer__iconos ul {
-                flex-direction: column;
-                align-items: center;
-            }
-
-            .footer__iconos ul li a i {
-                font-size: 2em;
-                /* margin: 5px; */
-                padding: 5px;
-                margin: -30px;
-            }
-
-            .footer__contacto {
-                flex-direction: column-reverse;
-            }
-
-            .footer__contacto--qr {
-                height: 5em;
-                justify-content: center;
-            }
-
-            .googleForm a {
-                display: flex;
-                flex-direction: column;
+        .header__menu {
+            a {
+                font-size: 0.5em;
+                line-height: 1em;
             }
         }
     }
+
+    .main {
+        section {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: center;
+            width: 100%;
+
+            .pages {
+                width: 75%;
+            }
+        }
+
+        .imagenes {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: repeat(5, 1fr);
+            gap: 10px 10px;
+        }
+
+    }
+
+    .footer {
+        .footer__iconos ul {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .footer__iconos ul li a i {
+            font-size: 2em;
+            /* margin: 5px; */
+            padding: 5px;
+            margin: -30px;
+        }
+
+        .footer__contacto {
+            flex-direction: column-reverse;
+        }
+
+        .footer__contacto--qr {
+            height: 5em;
+            justify-content: center;
+        }
+
+        .googleForm a {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
