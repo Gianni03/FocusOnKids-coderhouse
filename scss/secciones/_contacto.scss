@@ -24,8 +24,8 @@
 
             
         }
-        .contenedor__input--verde {
-            background-color: $cwapp;
+        .contenedor__input--color {
+            background-color: $cgoogle;
             color: #000;
             font-weight: 700;
             font-size: 2em;
@@ -33,7 +33,7 @@
             padding: 10px;
             cursor: pointer;
             &:hover {
-                background-color:  #62eb94;
+                background-color:  $cface;
             }
         }
 

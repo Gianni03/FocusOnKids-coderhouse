@@ -7,6 +7,18 @@
   font-size: 1.125em;
   background-color: #c4cfff; }
 
+.quienes {
+  color: #25d366; }
+
+.articulos {
+  color: #1877f2; }
+
+.media {
+  color: #e1306c; }
+
+.contacto {
+  color: #4285f4; }
+
 body {
   background-color: rgba(43, 167, 212, 0.1);
   font-family: "Montserrat", sans-serif;
@@ -237,16 +249,16 @@ body {
   .formulario .contenedor .contenedor__input .contenedor__input--chk {
     font-size: 1.125em;
     margin: 10px auto; }
-  .formulario .contenedor .contenedor__input--verde {
-    background-color: #25d366;
+  .formulario .contenedor .contenedor__input--color {
+    background-color: #4285f4;
     color: #000;
     font-weight: 700;
     font-size: 2em;
     border-radius: 5px;
     padding: 10px;
     cursor: pointer; }
-    .formulario .contenedor .contenedor__input--verde:hover {
-      background-color: #62eb94; }
+    .formulario .contenedor .contenedor__input--color:hover {
+      background-color: #1877f2; }
   .formulario .contenedor .consulta {
     margin: 10px 0 30px;
     font-size: 1.5em; }
