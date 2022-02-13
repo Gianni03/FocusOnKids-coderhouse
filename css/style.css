@@ -295,7 +295,7 @@ body {
   .main .formulario .googleForm a {
     font-size: 1em; } }
 
-@media screen and (max-width: 920px) and (max-width: 786px) {
+@media screen and (max-width: 786px) {
   .main .video__card {
     width: 100%;
     text-align: center; } }

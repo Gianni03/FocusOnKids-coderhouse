@@ -34,3 +34,6 @@ Agregado de etiquetas meta para SEO
     Descripción: Contactáte con Focus On Kids, el primer paso para conocernos, envianos tu consulta por el medio que prefieras, que te responderemos a la brevedad. focusonkids@gmail.com tel 297-4924433.
 
     Título: Focus On Kids | Terapia Ocupacional | Contacto
+
+
+6- Optimizacion de imágenes y videos y agregado de Descripción en ALT="", 

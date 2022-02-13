@@ -1,5 +1,6 @@
 // Variables 
 @import "./variables/colores";
+@import "./variables/mixin";
 
 // secciones
 @import "./secciones/general";
@@ -11,8 +12,12 @@
 @import "./secciones/articulos";
 @import "./secciones/media";
 @import "./secciones/contacto";
-@import "./secciones/mediaqueryes";
 
 
 // media queryes
+@import "./secciones/mediaqueryes";
+
+// todo revisar ruta imagen logo footer
+// todo imágenes y videos en media
+// todo footer responsive - menu responsive mobile
 
