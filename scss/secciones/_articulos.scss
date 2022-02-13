@@ -16,12 +16,6 @@
     }
 
     .box__text {
-        margin-bottom: 5px;
-        border: #000 solid 2px;
-        border-radius: 10px;
-        padding: 20px;
-        line-height: 2em;
-        font-size: 1.125em;
-        background-color: $cbgmedia;
+        @extend %artText;
     }
 }

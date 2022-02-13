@@ -1,3 +1,12 @@
+.box .box__text {
+  margin-bottom: 5px;
+  border: #000 solid 2px;
+  border-radius: 10px;
+  padding: 20px;
+  line-height: 2em;
+  font-size: 1.125em;
+  background-color: #c4cfff; }
+
 body {
   background-color: rgba(43, 167, 212, 0.1);
   font-family: "Montserrat", sans-serif;
@@ -184,15 +193,6 @@ body {
   text-align: center;
   margin-bottom: 15px; }
 
-.box .box__text {
-  margin-bottom: 5px;
-  border: #000 solid 2px;
-  border-radius: 10px;
-  padding: 20px;
-  line-height: 2em;
-  font-size: 1.125em;
-  background-color: rgba(225, 225, 225, 0.3); }
-
 .main .imagenes {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -200,7 +200,7 @@ body {
   gap: 10px 10px; }
   .main .imagenes div {
     margin-bottom: 3em;
-    background-color: rgba(225, 225, 225, 0.3); }
+    background-color: #c4cfff; }
     .main .imagenes div figcaption {
       padding: 20px;
       text-align: center; }
@@ -213,7 +213,7 @@ body {
 
 .main .videos {
   margin-bottom: 3em;
-  background-color: rgba(225, 225, 225, 0.3); }
+  background-color: #c4cfff; }
   .main .videos .videos__card {
     border-radius: 5px;
     border: #000 solid 2px;
@@ -223,7 +223,7 @@ body {
     text-align: center; }
 
 .formulario {
-  background-color: rgba(225, 225, 225, 0.3);
+  background-color: #c4cfff;
   margin: 4em auto;
   width: 60%; }
   .formulario .formulario__contenedor {
@@ -258,7 +258,7 @@ body {
     font-size: 1.5em;
     margin: 2em 2em;
     color: #1877f2;
-    background: rgba(225, 225, 225, 0.3);
+    background: #c4cfff;
     border-radius: 5px; }
     .formulario .contenedor .googleForm a:hover {
       color: #000;
