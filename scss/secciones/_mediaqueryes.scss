@@ -1,23 +1,26 @@
 @media screen and (max-width: 920px) {
     .header {
-        .header__logo-pc {
-            display: none;
-        }
-
-        background-image: url(../img/logo/logo_004.jpg);
-        background-size: cover;
-        justify-content: center;
+        flex-direction: column;
         align-items: center;
 
-        .header__menu li {
-            margin: 1.75em 1.125em;
+        .header__logo-pc {
+            vertical-align: bottom;
         }
     }
 
-    .main {
-        .imagenes:nth-child(3) {
-            display: none;
+
+    .header__menu {
+        ul {
+            margin-top: -2.5rem;
+
+            li {
+                margin: 1em 1em;
+            }
         }
+    }
+
+
+    .main {
 
         .imagenes {
             display: grid;
@@ -26,9 +29,8 @@
             gap: 10px 10px;
         }
 
-        .video__card {
-            width: 70%;
-            text-align: center;
+        .videos {
+            display: none;
         }
 
         .formulario .googleForm a {
@@ -39,21 +41,37 @@
 }
 
 @media screen and (max-width: 786px) {
-    .main .video__card {
-        width: 100%;
-        text-align: center;
+    .main {
+        .video__card {
+            width: 100%;
+            text-align: center;
+        }
     }
-    
+
 }
 
 @media screen and (max-width: 640px) {
     .header {
-        background-size: contain;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+
 
         .header__menu {
-            a {
-                font-size: 0.5em;
-                line-height: 1em;
+            ul {
+                display: inline-block;
+                margin-top: 0;
+
+                li {
+                    margin: 0;
+                    list-style: circle;
+
+                    a {
+                        padding: 0.35em;
+                        font-size: 0.5em;
+                        line-height: 1em;
+                    }
+                }
             }
         }
     }
@@ -81,16 +99,23 @@
     }
 
     .footer {
+        background-color: inherit;
+
         .footer__iconos ul {
             flex-direction: column;
             align-items: center;
+            margin-left: -2em;
         }
 
-        .footer__iconos ul li a i {
-            font-size: 2em;
-            /* margin: 5px; */
-            padding: 5px;
-            margin: -30px;
+        .footer__iconos {
+            border-top: 3px solid #000;
+
+            ul li a i {
+                font-size: 2em;
+                /* margin: 5px; */
+                padding: 5px;
+                // margin: -30px;
+            }
         }
 
         .footer__contacto {

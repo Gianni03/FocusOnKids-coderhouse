@@ -42,29 +42,34 @@
             font-size: 1.5em;
         }
 
-        .googleForm {
-            p {
-                margin: 10px 0 30px;
-                font-size: 1.5em;
-            }
-
-            a {
-                text-decoration: none;
-                font-size: 1.5em;
-                margin: 2em 2em;
-                color: $cface;
-                background: $cbgmedia;
-                border-radius: 5px;
-
-                &:hover {
-                    color: #000;
-                    background: $cwapp;
-                    text-decoration: underline;
-                }
+        
+    }
+}
+.googleForm {
+    div {
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        
+        a {
+            padding: 1em;
+            text-decoration: none;
+            font-size: 1.5em;
+            margin: 2em 2em;
+            color: $cface;
+            background: $cbgmedia;
+            border-radius: 5px;
+    
+            &:hover {
+                color: #f2f2f2;
+                background:$cface;
+                text-decoration: underline;
             }
         }
     }
-}
+    }
+
+
 
 .map {
     .map__mobil {

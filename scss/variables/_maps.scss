@@ -1,14 +1,14 @@
 // MAPA
-$bgtext: (
-    quienes: $cwapp,
-    articulos: $cface,
-    media: $cinsta,
-    contacto: $cgoogle,
-);
+// $coltext: (
+//     acerca: $cwapp,
+//     articulos: $cface,
+//     media: $cinsta,
+//     contacto: $cgoogle,
+// );
 
-// BUCLE
-@each $inicio, $color in $bgtext {
-    .#{$bgtext}{
-        color: $color;
-    }
-}
+// // BUCLE
+// @each $inicio, $color in $coltext {
+//     .#{$coltext}{
+//         background-color: $color,
+//     }
+// }
