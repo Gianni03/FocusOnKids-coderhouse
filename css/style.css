@@ -135,8 +135,8 @@ body {
       font-size: 1em;
       margin: 10px;
       padding: 10px; }
-      .footer .footer__dev p a:hover,
-      .footer .footer__dev a a:hover {
+      .footer .footer__dev p:hover,
+      .footer .footer__dev a:hover {
         color: #25d366;
         background-color: #1c1c1c;
         border-radius: 15px; }
