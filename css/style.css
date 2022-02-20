@@ -203,7 +203,7 @@ body {
 .main .imagenes {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   gap: 10px 10px; }
   .main .imagenes div {
     margin-bottom: 3em;
@@ -319,7 +319,7 @@ body {
         list-style: circle; }
         .header .header__menu ul li a {
           padding: 0.35em;
-          font-size: 0.5em;
+          font-size: 0.75em;
           line-height: 1em; }
   .main section {
     display: flex;
